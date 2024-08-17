@@ -115,8 +115,8 @@ function animation() {
             trigger:".container4",
             scroller:"body",
            // markers:true,
-            start:"top 100%",
-            end:"end 100%",
+            start:"top 140%",
+            end:"end 140%",
             scrub:2
         }
     })
