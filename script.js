@@ -1,3 +1,13 @@
+ const evt = new Event("window");
+
+window.addEventListener("window",function () {
+    alert('Plz wait untill loading...');
+    
+})
+window.dispatchEvent(evt)
+
+
+
 var tl=gsap.timeline()
 
 
@@ -139,6 +149,10 @@ let nav = document.querySelector("nav");
 nav.classList.toggle("block");
 
 });
+
+
+
+
 
 
     
